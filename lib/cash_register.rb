@@ -50,7 +50,7 @@ class CashRegister
   
     if @discount
       
-      @total = @total ()
+      @total = @total (1 - @employee_discount / 100)
   
     decimal = discount.to_f / 100.00 
   
