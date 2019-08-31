@@ -51,7 +51,7 @@ class CashRegister
     if @discount
       
       @total = @total (1 - @employee_discount / 100)
-  
+  p "After the discount, the total comes to $#{@total}."
 
     
     if decimal == 0
@@ -61,7 +61,7 @@ class CashRegister
         amt_off = self.total * decimal 
         @total = total.to_i - amt_off.to_i  
         
-        p "After the discount, the total comes to $#{@total}."
+        
   end 
 end 
     
