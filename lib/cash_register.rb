@@ -48,6 +48,7 @@ class CashRegister
   
   def apply_discount
   
+    if discount 
   
     decimal = discount.to_f / 100.00 
   
