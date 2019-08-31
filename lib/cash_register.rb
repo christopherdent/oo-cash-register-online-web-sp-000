@@ -52,11 +52,7 @@ class CashRegister
       
       @total = @total (1 - @employee_discount / 100)
   
-    decimal = discount.to_f / 100.00 
-  
-    amt_off = decimal * self.total.to_f 
-  
-    new_price = self.total.to_f - amt_off 
+
     
     if decimal == 0
       p "There is no discount to apply."
