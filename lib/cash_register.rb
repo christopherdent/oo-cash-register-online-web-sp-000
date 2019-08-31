@@ -22,12 +22,12 @@ class CashRegister
   end 
   
   
-def discount 
-  self.discount
-end 
+  def discount 
+    self.discount
+  end 
 
   def title 
-  @title 
+    @title 
   end 
   
   
