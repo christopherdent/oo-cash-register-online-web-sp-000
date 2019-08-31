@@ -40,7 +40,7 @@ class CashRegister
   def apply_discount
    
     if @discount != 0 
-      @discount = @discount.to_i 
+      @discount = @discount.to_f 
       
       binding.pry 
       @total = @total * (@discount / 100)
