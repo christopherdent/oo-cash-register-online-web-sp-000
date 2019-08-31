@@ -62,10 +62,11 @@ class CashRegister
     
   def void_last_transaction
   
- binding.pry
+ 
   
-  self.total - self.last[1]
+  price self.total - self.last[1]
     
+    return price 
    
   
 end 
