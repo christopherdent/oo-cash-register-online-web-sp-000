@@ -33,7 +33,7 @@ class CashRegister
     quantity.times do 
     @items << title 
    end 
-   self.last = [title, price, quantity]
+    self.last = [title, price, quantity]
   end 
   
   
