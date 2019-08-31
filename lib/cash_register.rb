@@ -14,7 +14,7 @@ class CashRegister
   
   
   def discount 
-    self.discount
+    @discount 
   end 
 
   def items 
