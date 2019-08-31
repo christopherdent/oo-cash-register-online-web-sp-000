@@ -1,7 +1,7 @@
 require 'pry'
 
 class CashRegister
-  attr_accessor :discount, :total, :title, :price, :quantity, :item_count
+  attr_accessor :discount, :total, :items, :price, :quantity, :item_count
   
   
   @@item_count = 0 
@@ -11,7 +11,7 @@ class CashRegister
     @total = 0.00
     
     
-    @title = [] 
+    @items = [] 
     
     
     @price = price 
@@ -26,8 +26,8 @@ class CashRegister
     self.discount
   end 
 
-  def title 
-    @title 
+  def items 
+    @items  
   end 
   
   
@@ -40,9 +40,9 @@ class CashRegister
   
     self.total += price * quantity
   
-    @title = title 
+     
     quantity.times do 
-     @title << title 
+     @items << title 
    end 
    
   end 
