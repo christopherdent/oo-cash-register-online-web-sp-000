@@ -62,12 +62,10 @@ class CashRegister
     
   def void_last_transaction
   
-  self.count
+ 
   
-  
-  #keep track of all instances... 
-    new = self.total - self.last_item
-    p new 
+  self.total - self.last_item
+    
    
   
 end 
