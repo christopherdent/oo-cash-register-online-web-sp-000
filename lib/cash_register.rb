@@ -63,7 +63,7 @@ class CashRegister
     
   def void_last_transaction
   
- 
+ binding.pry
   
   self.total - self.lastTransactionAmount[1]
     
