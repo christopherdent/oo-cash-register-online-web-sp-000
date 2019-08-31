@@ -51,7 +51,7 @@ class CashRegister
     if @discount
       
       @total = @total (1 - @employee_discount / 100)
-  p "After the discount, the total comes to $#{@total}."
+    p "After the discount, the total comes to $#{@total}."
 
     
     if decimal == 0
