@@ -37,7 +37,7 @@ class CashRegister
   
     @title = title 
     quantity.times do 
-     @items << @title 
+     @title << title 
    end 
    
   end 
