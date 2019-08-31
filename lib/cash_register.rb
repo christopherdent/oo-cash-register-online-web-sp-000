@@ -65,7 +65,7 @@ class CashRegister
   
  
   
-  self.total - self.lastTransactionAmount
+  self.total - self.lastTransactionAmount[1]
     
    
   
