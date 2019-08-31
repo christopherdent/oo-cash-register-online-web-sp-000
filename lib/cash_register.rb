@@ -22,7 +22,9 @@ class CashRegister
   end 
   
   
-
+def discount 
+  self.discount
+end 
   
   def total 
     @total 
