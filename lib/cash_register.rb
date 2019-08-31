@@ -25,6 +25,11 @@ class CashRegister
 def discount 
   self.discount
 end 
+
+  def title 
+  @title 
+  end 
+  
   
   def total 
     @total 
