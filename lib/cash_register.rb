@@ -34,7 +34,7 @@ class CashRegister
     quantity.times do 
     @items << title 
    end 
-   binding.pry
+   self.lastTransactionAmount = [title, price, quantity]
   end 
   
   
