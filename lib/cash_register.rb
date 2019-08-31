@@ -64,9 +64,9 @@ class CashRegister
   
  
   
-    price = self.total - self.last[1] * self.last[2]
+     self.total -= self.last[1] * self.last[2]
     
-    return price 
+   self.total
    
   
 end 
