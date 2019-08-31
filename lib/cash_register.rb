@@ -9,13 +9,12 @@ class CashRegister
   def initialize(discount = 0)
     @discount = discount
     @total = 0.00
-    
-    
     @items = [] 
     
     
+    
+    
     @price = price 
-   
     @quantity = quantity 
     @@item_count += 1 
     
@@ -53,11 +52,11 @@ class CashRegister
       @total = @total * (1 - @employee_discount / 100)
          "After the discount, the total comes to $#{@total}."
 
-    else 
+      else 
            "There is no discount to apply."
     
+    end 
   end 
-end 
     
   
   def items
