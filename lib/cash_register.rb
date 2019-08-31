@@ -19,10 +19,6 @@ class CashRegister
     @quantity = quantity 
     @@item_count += 1 
     
-     
-    
-    
-    
   end 
   
   
@@ -43,11 +39,7 @@ class CashRegister
     quantity.times do 
      @items << @title 
    end 
-    
-    
-  
-       
- 
+   
   end 
   
   
@@ -87,7 +79,7 @@ end
   
   #keep track of all instances... 
     new = self.total - self.last_item
-    return new 
+    p new 
    
   
 end 
