@@ -22,9 +22,7 @@ class CashRegister
   end 
   
   
-  def self.count
-    @@item_count
-  end
+
   
   def total 
     @total 
