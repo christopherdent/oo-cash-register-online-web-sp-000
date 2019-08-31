@@ -5,7 +5,7 @@ class CashRegister
   
   
 
-  def initialize(discount = 0)
+  def initialize(discount = nil)
     @discount = discount
     @total = 0.00
     @items = [] 
@@ -39,7 +39,7 @@ class CashRegister
   
   def apply_discount
    
-    if @discount != 0 
+    if @discount
        
        
       @total = @total * (@discount.to_f / 100)
